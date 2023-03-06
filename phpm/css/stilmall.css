@@ -1,0 +1,112 @@
+body{
+    background: lightgrey;
+}
+#namel, #passl{
+    display: inline-block;
+    text-align: left;
+    float: right;
+}
+form{
+    padding: 2em;
+    border: 3px solid #6d9390;
+    border-radius: 50px 40px;
+    background: linear-gradient(to right, #DDD 0%, #FFF 50%, #DDD 100%);
+
+}
+#submit{
+    background-color: #75918e;
+    color: #DDD;
+    border: 3px solid #45948d;
+}
+#user,#pass,#yourAge,#yourName{
+    padding: 0;
+    font-family: 'Open Sans',Helvetica,sans-serif;
+    font-size: 1.01em;
+    font-weight: 350;
+    line-height: 1.5em;
+}
+#body1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    align-items: center;
+}
+
+#user,#age{
+    margin: 0;
+    padding-left: 0.08em;
+}
+/*
+body{
+    background: lightgrey;
+}
+div{
+    padding: 0;
+    font-family: 'Open Sans',Helvetica,sans-serif;
+    font-size: 1.01em;
+    font-weight: 350;
+    line-height: 1.5em;
+}
+*/
+#mainmenu{
+    width: 100%;
+    height: 6%;
+    /*background: linear-gradient(to right, #b4b19f 0%, #DDD 75%, #FFF 0%);*/
+    background: linear-gradient(to top, #e8d251 31%,#3a2c0f 5%);
+    border-radius: 50px 40px ;
+}
+
+#firstpage{
+    margin-top: 0;
+    font-size: 3.3em;
+    display: inline-block;
+    margin-left: 40%;
+    background: linear-gradient(to bottom, #cfc09f 22%,#e8c711 55%, #cfc09f 26%, #cfc09f 20%,#ffecb3 40%,#3a2c0f 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #e8c711;
+
+}
+ul{
+    /*margin: 0;
+    padding: 0;*/
+}
+
+ul li,#logout {
+list-style: none;
+    display: inline-block;
+    float: right;
+    border: 0.2em solid #45948d;
+    border-radius: 50px 40px;
+    background: linear-gradient(to right, #DDD 0%, #FFF 50%, #DDD 100%);
+}
+
+ul li a,#logout{
+    display: block;
+text-decoration: none;
+    font-size: 1.2em;
+    color: goldenrod;
+    padding: 0.5em 2em;
+}
+ul li a:hover{
+    color: #ffa600;
+}
+#logout:hover{
+    color: #ff006a;
+}
+#theuslessform{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: right;
+    border: 0;
+}
+#om{
+    width: 50em;
+    border-color: #92a8d1;
+    border-style: solid;
+    border-width: 1.5em;
+    box-shadow: inset 0 0 5px #311b0b;
+    border-image: linear-gradient(to right, rgba(60,74,83,0.90), rgba(60,74,83,0.1)) 1;
+}
